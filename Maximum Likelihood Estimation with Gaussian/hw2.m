@@ -158,7 +158,7 @@ error_grass64 = (diff_grass / count_grass)*p_background;
 error_rate64 = error_cheeta64 + error_grass64;
 
 
-%% Best Features
+%% Best Features git practice
 for i=1:q-7
     for j=1:l-7
         matrix_dct2 = dct2(B(i:i+7,j:j+7));
